@@ -1,0 +1,25 @@
+{
+  "printWidth": 100,
+  "trailingComma": "none",
+  "vueIndentScriptAndStyle": true,
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-svelte"],
+  "importOrder": [
+    "<TYPES>^(node:)",
+    "<TYPES>",
+    "<TYPES>^[$]",
+    "<TYPES>^[.]",
+    "<BUILTIN_MODULES>",
+    "<THIRD_PARTY_MODULES>",
+    "^[$]",
+    "^[.]"
+  ],
+  "importOrderCaseSensitive": true,
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte"
+      }
+    }
+  ]
+}
