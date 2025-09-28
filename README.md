@@ -15,7 +15,7 @@ A sveltekit starter project
 ## Usage
 
 ```sh
-npx degit hankaguila/node-starter-sveltekit
+npx degit --force hankaguila/node-starter-sveltekit
 ```
 
 ## License
