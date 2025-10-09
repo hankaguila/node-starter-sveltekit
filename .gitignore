@@ -10,7 +10,7 @@
 !test/**
 !.gitignore
 !.npmrc
-!.prettierrc.json
+!.prettierrc
 !LICENSE
 !package.json
 !README.md
